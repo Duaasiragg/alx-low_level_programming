@@ -2,7 +2,7 @@
 /**
  *main - Entry point
  *Description: 'print numbers of base 10'
- *Return (0)
+ *Return: (0)
  */
 int main(void)
 {

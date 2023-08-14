@@ -13,12 +13,12 @@ for (p = d + 1; q <= '9'; p++)
 {
 for (q = p + 1; q <= '9'; q++)
 {
-if ((p != d) != q)
+if (q > p && p > d)
 {
 putchar(d);
 putchar(p);
 putchar(q);
-if (d == '7' && p == '8')
+if (d != '7' || p != '8')
 {
 continue;
 putchar(',');

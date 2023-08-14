@@ -13,17 +13,15 @@ for (p = d + 1; q <= '9'; p++)
 {
 for (q = p + 1; q <= '9'; q++)
 {
-if (q > p && p > d)
+if ((p != d) != q)
 {
 putchar(d);
 putchar(p);
 putchar(q);
-if (d != '7' || p != '8')
-{
+if (d == '7' && p == '8')
 continue;
 putchar(',');
 putchar(' ');
-}
 }
 }
 }

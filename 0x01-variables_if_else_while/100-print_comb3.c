@@ -13,8 +13,11 @@ for (d = '0'; d < '9'; d++)
 {
 for (p = d + 1; p <= '9'; p++)
 {
-if (d == '8' && p == '9')
+if (p != d)
 {
+putchar(d);
+putchar(p);
+if (d == '8' && p == '9')
 continue;
 putchar(',');
 putchar(' ');

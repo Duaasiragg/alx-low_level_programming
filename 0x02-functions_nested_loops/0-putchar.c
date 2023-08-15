@@ -1,17 +1,20 @@
-#include <stdio.h>
+#include "main.h"
+
+
 /**
- * main - entry point
- * Description: 'print _putchar to stdout'
- * Return: always 0
+ * main - print _putchar
+ * is written by mbah
+ * Return: 0
  */
+
 int main(void)
 {
 int i;
-char c[] = "_putchar";
+char c[];
 for (i = 0; i <= 7; i++)
 {
-putchar(c[i]);
+	_putchar(c[i]);
 }
-putchar('\n');
+_putchar('\n');
 return (0);
 }

@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * print alphabet - print alphabet
- * Description: 'print alphabet'
- * Return: print alphabet
+ * print_alphabet - print alphabets
+ *
  */
+
 void print_alphabet(void)
 {
 	char al;

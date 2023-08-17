@@ -16,7 +16,7 @@ if ((num % 3) == 0 && (num % 5) == 0)
 printf("FizzBuzz");
 
 else if (num % 3 == 0)
-printf("fizz");
+printf("Fizz");
 
 else if (num % 5 == 0)
 printf("Buzz");

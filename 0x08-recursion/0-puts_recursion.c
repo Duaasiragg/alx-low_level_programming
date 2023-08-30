@@ -2,18 +2,16 @@
 /**
  * _puts_recursion - recursive function
  * @s: pointer to a string
- * Return: nothing
+ * Return: always 0
  */
 
 void _puts_recursion(char *s)
 {
-	if (*s <= '\0')
-	{
-		_putchar(*s);
-		_puts_recursion(s + 1);
-	}
-	if (*s == '\0')
-	{
-	_putchar('\n');
+if (*s)
+{
+	_putchar(*s);
+	_puts_recursion(s + 1);
 }
+else
+_putchar('\n');
 }
